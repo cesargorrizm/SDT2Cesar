@@ -14,5 +14,12 @@ public class Main {
         for (int i = 0; i < ran; i++) {
             System.out.println("This is a random value "+ ran);
         }
+        
+        String frase ;
+        frase= "This is more code";
+        
+        for (char str : frase.toCharArray() ) {
+            System.out.println(str);
+        }
     }
 }
