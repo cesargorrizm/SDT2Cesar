@@ -17,9 +17,11 @@ public class Main {
         
         String frase ;
         frase= "This is more code";
-        
+        int j=0;
         for (char str : frase.toCharArray() ) {
             System.out.println(str);
+            j++;
         }
+        System.out.println("Interactions: "+j);
     }
 }
