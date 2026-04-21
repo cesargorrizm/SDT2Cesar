@@ -8,5 +8,11 @@ public class Main {
         for (int index = 0; index < values; index++) {
             System.out.println("First Commit");
         }
+
+        int ran= 7;
+
+        for (int i = 0; i < ran; i++) {
+            System.out.println("This is a random value "+ ran);
+        }
     }
 }
